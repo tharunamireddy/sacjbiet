@@ -4,7 +4,7 @@ import './ContactUs.css';
 
 const ContactUs = () => {
   return (
-    <div id="sectioncontactus">
+    <div id="contactus">
       <div className="container">
         <div className="row justify-content-center">
           <h1 className="title-contact">CONTACT US</h1>

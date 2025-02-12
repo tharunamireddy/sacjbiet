@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer = () => {
   return (
     <footer className="footer">
-      <p>&copy; {new Date().getFullYear()} SAC JBiet. All Rights Reserved.</p>
+      <p>&copy; {new Date().getFullYear()} SAC JBIET. All Rights Reserved. Developed by Tharun Amireddy</p>
     </footer>
   );
 };
