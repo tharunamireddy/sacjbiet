@@ -1,0 +1,35 @@
+/* App.css – Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;  /* Entire site background is white */
+  color: #000000;             /* All text is black */
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+/* Simple fade-in animation */
+.fade-in {
+  animation: fadeIn 1s ease-in;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Generic button style using the accent color */
+.btn {
+  background-color: #EA972C;
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #d88c25; /* a slightly darker shade for hover */
+}

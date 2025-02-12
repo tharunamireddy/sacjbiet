@@ -1,0 +1,43 @@
+.president-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.president-section h2 {
+  margin-bottom: 30px;
+}
+
+.president-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.president-card {
+  background: #EDE8F5; /* card background */
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.president-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.president-card img {
+  height: 200px;
+  border-radius: 90%;
+}
+
+.president-card h3 {
+  margin-top: 15px;
+  color:#3D52A0;
+
+}
+
+.president-card p {
+  color: black;
+}

@@ -1,0 +1,71 @@
+.infoquest-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .infoquest-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .infoquest-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .register-btn {
+    margin-top: 20px;
+    background-color: #7091E6; /* accent color for button */
+    color: #EDE8F5; /* light text */
+    border: none;
+    padding: 10px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .register-btn:hover {
+    background-color: #8697C4;
+  }
+  
+
+
+
+  
+
+  
+  .department-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .department-card {
+    background: #EDE8F5; /* card background */
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .department-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .department-card img {
+    height: 150px;
+  }
+  
+  .department-card h3 {
+    margin-top: 15px;
+    color:#3D52A0;
+  
+  }
+  
+  .department-card p {
+    color: black;
+  }
+  

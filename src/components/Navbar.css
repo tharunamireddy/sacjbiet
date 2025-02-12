@@ -1,0 +1,111 @@
+/* Navbar.css */
+.logo{
+    width: 50px;
+    padding-top: 10px;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;  /* White background */
+    box-shadow: #000000;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000000;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-menu li a {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.3s;
+    font-weight: bold;
+    position: relative;
+  }
+  .navbar-menu li a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Slightly below the text */
+    width: 0%;
+    height: 2px;
+    background-color: #3D52A0;
+    transition: width 0.3s ease-in-out;
+  }
+
+  /* When hovering the link, animate the underline and add a shadow effect */
+.navbar-menu li a:hover::after {
+    width: 100%;
+  }
+  
+  .navbar-menu li a:hover {
+    text-shadow: 0 2px 4px #EDE8F5;
+  }
+  
+
+  .navbar-menu li a:hover {
+    color:  #3D52A0;  /* Accent color on hover */
+  }
+  
+  /* Hamburger icon styles for smaller screens */
+  .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  .hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #EDE8F5;
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  /* Responsive: Show hamburger and toggle menu on small screens */
+  @media (max-width: 768px) {
+    .hamburger {
+      display: flex;
+    }
+    .navbar-logo{
+        font-size: 22px;
+    }
+    .navbar-menu {
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background-color: #ffffff;
+      width: 200px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 10px 0;
+      display: none;
+    }
+    .navbar-menu.open {
+      display: flex;
+    }
+    .navbar-menu li {
+      margin: 10px 0;
+      text-align: center;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+.pillars {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .pillars h2 {
+    margin-bottom: 30px;
+    color: black; /* primary heading */
+  }
+  
+  .pillars-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .pillar-card {
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    background-color: #EDE8F5;
+    transition: transform 0.3s, box-shadow 0.3s;
+
+  }
+  
+  .pillar-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pillar-card img {
+    height: 200px;
+    border-radius: 50%;
+  }
+  
+  .pillar-card h3 {
+    margin-top: 15px;
+    color: #3D52A0;
+  }
+  
+  .pillar-card p {
+    color: black;
+    text-align: justify;
+  }
+  

@@ -1,0 +1,16 @@
+.event-gallery {
+    padding: 50px 40px;
+    text-align: center;
+  }
+  
+  .event-gallery h2 {
+    margin-bottom: 30px;
+  }
+  
+  .gallery-slide img {
+    width: 95%;
+    height: 40vh;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
