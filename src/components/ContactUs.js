@@ -1,4 +1,5 @@
 import React from 'react';
+import { CiMail,CiLocationOn,CiPhone } from "react-icons/ci";
 import './ContactUs.css';
 
 const ContactUs = () => {
@@ -13,7 +14,7 @@ const ContactUs = () => {
             <div className="contact_info">
               <ul className="icon_list pt50">
                 <li>
-                  <i className="fa-solid fa-location-dot"></i>
+                  <CiLocationOn/>
                   <span>
                     Bhaskar Nagar, Moinabad Mandal<br />
                     R.R. District, Hyderabad<br />
@@ -21,15 +22,15 @@ const ContactUs = () => {
                   </span>
                 </li>
                 <li>
-                  <i className="fa-solid fa-phone"></i>
+                  <CiPhone/>
                   <span>
-                    9885685836, 9177210108, 7978876463, 7908058895
+                    8520990082, 94356262, 9182467547
                   </span>
                 </li>
                 <li>
-                  <i className="fa-solid fa-envelope"></i>
+                <CiMail />
                   <span>
-                    info@disccon.com
+                  studentactivitycentre.jbiet@gmail.com
                   </span>
                 </li>
               </ul>

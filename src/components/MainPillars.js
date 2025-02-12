@@ -22,7 +22,7 @@ const pillars = [
 const MainPillars = () => {
   return (
     <section id="pillars" className="pillars">
-      <h2>Main Pillars of JBiet</h2>
+      <h2>PILLARS OF STRENGTH</h2>
       <div className="pillars-container">
         {pillars.map((pillar, index) => (
           <div className="pillar-card" key={index}>

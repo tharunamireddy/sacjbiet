@@ -20,6 +20,10 @@
     font-size: 48px;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #EDE8F5;
+    transition: transform 0.3s, box-shadow 0.3s;
+
 
   }
-  
+  .home-heading:hover{
+  transform: translateY(-1px);
+  }
