@@ -1,0 +1,44 @@
+.event-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .event-section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .event-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .event-card {
+    background: #EDE8F5; /* card background */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .event-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card img {
+    height: 200px;
+    border-radius: 90%;
+  }
+  
+  .event-card h3 {
+    margin-top: 15px;
+    color:#3D52A0;
+  
+  }
+  
+  .event-card p {
+    color: black;
+  }
+  

@@ -41,3 +41,13 @@
 .president-card p {
   color: black;
 }
+
+.info{
+  margin-top: 20px;
+}
+
+@media screen and (max-width:768px){
+  .info{
+    width:100%;
+  }
+}

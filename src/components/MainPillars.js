@@ -4,17 +4,20 @@ import './MainPillars.css';
 const pillars = [
   {
     photo: 'https://res.cloudinary.com/dwch0edff/image/upload/v1739371833/j-v-krishnarao_oxxwxa.jpg',
-    name: 'J.V. Krishna Rao Secretary',
+    name: 'J.V. Krishna Rao',
+    des:'Secretary',
     about: 'The B.Tech program is designed to provide students with a strong foundation in engineering principles and practical skills. It offers a comprehensive understanding of various engineering disciplines, allowing students to specialize in many areas.',
   },
   {
     photo: 'https://res.cloudinary.com/dwch0edff/image/upload/v1739370862/principal2021_w29ny1.jpg',
-    name: 'P.C. Krishnama Chary Principal',
-    about: 'The M.Tech program is a postgraduate degree that focuses on advanced engineering concepts and specialized knowledge. It enables students to delve deeper into their chosen engineering field and undertake research projects.',
+    name: 'Dr. P. C. Krishnamachary',
+    des:'Principal'
+,    about: 'The M.Tech program is a postgraduate degree that focuses on advanced engineering concepts and specialized knowledge. It enables students to delve deeper into their chosen engineering field and undertake research projects.',
   },
   {
     photo: 'https://res.cloudinary.com/dwch0edff/image/upload/v1739372007/sac_20incharge_oj3kb8.jpg',
-    name: 'Kishore Kumar SAC',
+    name: 'B. Kishore Kumar',
+    des:'SAC Incharge',
     about: 'Our college also offers research opportunities for those driven to advance the boundaries of engineering knowledge. These programs provide a platform for students to engage in high-impact research projects, collaborate with esteemed faculty..',
   },
 ];
@@ -28,6 +31,7 @@ const MainPillars = () => {
           <div className="pillar-card" key={index}>
             <img src={pillar.photo} alt={pillar.name} />
             <h3>{pillar.name}</h3>
+            <h4>{pillar.des}</h4>
             <p>{pillar.about}</p>
           </div>
         ))}
