@@ -26,8 +26,8 @@ const PresidentSection = () => {
             <p>{president.about}</p>
           </div>
         ))}
-        <img src='https://res.cloudinary.com/dwch0edff/image/upload/v1739536843/sphoorti_poster_grand_finale_x55oxa.png' alt='info' className='info'/>
       </div>
+      <img src='https://res.cloudinary.com/dwch0edff/image/upload/v1739536843/sphoorti_poster_grand_finale_x55oxa.png' alt='info' className='info'/>
     </section>
   );
 };
