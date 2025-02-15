@@ -18,8 +18,9 @@ function App() {
       <MainPillars />
       <PresidentSection />
       <EventGallery />
-      <InfoquestSection />
       <Spoorthi />
+
+      <InfoquestSection />
       <AboutUs />
       <ContactUs/>
       <Footer />

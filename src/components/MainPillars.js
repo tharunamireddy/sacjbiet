@@ -7,6 +7,11 @@ const pillars = [
     name: 'J.V. Krishna Rao',
     des:'Secretary',
     about: 'The B.Tech program is designed to provide students with a strong foundation in engineering principles and practical skills. It offers a comprehensive understanding of various engineering disciplines, allowing students to specialize in many areas.',
+  },{
+    photo:'https://res.cloudinary.com/dwch0edff/image/upload/v1739607284/Screenshot_2025-02-15_134218_z0qtub.png',
+    name:'PROF. Chintakindi Sanjay',
+    des:'Director',
+    about: 'I am delighted to extend a warm welcome to you at J. B. Educational Society, situated on a sprawling 106-acre campus in Hyderabad. Established in 1993 under the dynamic leadership and educational entrepreneur, our founder chairman, the late Sri J. Bhaskar Rao Garu. The goal of society is to provide holistic education for students. We want to impart relevant education and create knowledge through research and innovation to cater to the needs of industry and society.'
   },
   {
     photo: 'https://res.cloudinary.com/dwch0edff/image/upload/v1739370862/principal2021_w29ny1.jpg',
