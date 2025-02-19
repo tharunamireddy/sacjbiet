@@ -19,7 +19,7 @@ const departments = [
     name: 'AIML MAVERICKS',
     about: 'Register for our upcoming event AI VERSE',
     coordinator: 'Coordinator: Jane Smith, Phone: 9876543210',
-    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739608342/WhatsApp_Image_2025-02-15_at_14.01.46_4f97f147_ppoy6u.jpg'
+    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739960926/WhatsApp_Image_2025-02-19_at_06.08.48_b22256fb_rg5fs9.jpg'
 
   },
   {
@@ -27,7 +27,7 @@ const departments = [
     name: 'CLIQUE',
     about: 'Register for our upcoming event Dronathon',
     coordinator: 'Coordinator: K. Anvesh, Phone: 9010757202',
-    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739608342/WhatsApp_Image_2025-02-15_at_14.01.46_4f97f147_ppoy6u.jpg'
+    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739960917/WhatsApp_Image_2025-02-19_at_06.56.54_994a5bc8_ipkjwm.jpg'
 
   },
   {
@@ -67,7 +67,7 @@ const departments = [
     name: 'SAE',
     about: 'Register for our upcoming event "Mech Tech Expo',
     coordinator: 'Coordinator: Olivia Purple, Phone: 7778889999',
-    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739608342/WhatsApp_Image_2025-02-15_at_14.01.46_4f97f147_ppoy6u.jpg'
+    img:'https://res.cloudinary.com/dwch0edff/image/upload/v1739960903/WhatsApp_Image_2025-02-19_at_06.59.38_dfefeb06_twrlvm.jpg'
 
   },
   {

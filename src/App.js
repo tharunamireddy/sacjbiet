@@ -19,7 +19,6 @@ function App() {
       <PresidentSection />
       <EventGallery />
       <Spoorthi />
-
       <InfoquestSection />
       <AboutUs />
       <ContactUs/>

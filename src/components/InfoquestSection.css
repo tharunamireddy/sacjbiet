@@ -102,7 +102,7 @@
 .modal-poster {
   width: 100%;
   position: relative;
-  padding-top: 75%; /* 3/4 = 75% to enforce 4:3 ratio */
+  padding-top: 145%; /* 3/4 = 75% to enforce 4:3 ratio */
   margin-bottom: 20px;
 }
 
